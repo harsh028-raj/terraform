@@ -3,4 +3,4 @@ provider "aws" {
 }
 
 resource "aws_vpc" "vpctf" {
-   
+   cidr_block = var.
